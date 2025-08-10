@@ -34,6 +34,12 @@ export default function Sidebar(props: { pageId: string; }) {
       menuItemText: "History",
       menuItemActive: false,
       menuItemLink: '/history'
+    },
+    {
+      menuItemId: "Chat",
+      menuItemText: "Chat",
+      menuItemActive: false,
+      menuItemLink: '/chat'
     }
   ]
   
